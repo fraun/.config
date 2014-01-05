@@ -23,7 +23,7 @@ xset fp rehash
 xsetroot -cursor_name left_ptr &
 
 #set backgnd
-sh ~/.fehbg &
+sh ~/.config/.dotfiles/.fehbg &
 
 #terminal 
 xrdb -load ~/.Xresources
