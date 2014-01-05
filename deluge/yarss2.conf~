@@ -1,0 +1,56 @@
+{
+  "file": 5, 
+  "format": 1
+}{
+  "cookies": {}, 
+  "subscriptions": {
+    "0": {
+      "last_match": "2013-12-17T04:20:01", 
+      "regex_include": "720", 
+      "max_download_speed": -2, 
+      "regex_exclude": "re", 
+      "name": "TV", 
+      "auto_managed": "Default", 
+      "add_torrents_in_paused_state": "Default", 
+      "regex_include_ignorecase": true, 
+      "prioritize_first_last_pieces": "Default", 
+      "download_location": "", 
+      "custom_text_lines": "", 
+      "max_upload_speed": -2, 
+      "regex_exclude_ignorecase": true, 
+      "max_upload_slots": -2, 
+      "key": "0", 
+      "rssfeed_key": "0", 
+      "active": true, 
+      "sequential_download": "Default", 
+      "email_notifications": {}, 
+      "move_completed": "", 
+      "max_connections": -2
+    }
+  }, 
+  "email_messages": {}, 
+  "rssfeeds": {
+    "0": {
+      "name": "TV", 
+      "url": "http://showrss.info/rss.php?user_id=158071&hd=1&proper=null", 
+      "site": "showrss.info", 
+      "last_update": "2013-12-29T14:50:54", 
+      "active": true, 
+      "key": "0", 
+      "obey_ttl": true, 
+      "update_interval": 30
+    }
+  }, 
+  "email_configurations": {
+    "default_email_subject": "[YaRSS2]: RSS event ($subscription_title)", 
+    "from_address": "", 
+    "smtp_authentication": false, 
+    "send_email_on_torrent_events": false, 
+    "smtp_port": "", 
+    "smtp_server": "", 
+    "default_email_message": "Hi\n\nThe following torrents have been added:\n$torrentlist\nRegards", 
+    "default_email_to_address": "", 
+    "smtp_username": "", 
+    "smtp_password": ""
+  }
+}
