@@ -1,0 +1,42 @@
+2014-01-05 11:30:16		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, script, xfer
+2014-01-05 11:30:46		irc: server irc.unixhub.net created (temporary server, NOT SAVED!)
+2014-01-05 12:42:37		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, script, xfer
+2014-01-05 13:01:29		irc: server oftc created
+2014-01-05 13:01:42		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, script, xfer
+2014-01-05 13:04:06	=!=	Error: option "irc.unixhub.net.oftc.autojoin" not found
+2014-01-05 15:21:11		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, script, xfer
+2014-01-05 15:21:40		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2014-01-05 17:27:16		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, script, xfer
+2014-01-05 17:27:35	=!=	You can not write text in this buffer
+2014-01-05 17:28:06	=!=	You can not write text in this buffer
+2014-01-05 17:28:09	=!=	irc: too few arguments for "query" command
+2014-01-05 17:30:33		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, script, xfer
+2014-01-05 17:30:38	=!=	You can not write text in this buffer
+2014-01-05 17:31:52		irc: server localhost created (temporary server, NOT SAVED!)
+2014-01-05 17:32:04		irc: server vaio created (temporary server, NOT SAVED!)
+2014-01-05 17:32:31		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, script, xfer
+2014-01-05 17:32:59		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, script, xfer
+2014-01-05 17:33:08		irc: server vaio created (temporary server, NOT SAVED!)
+2014-01-05 17:33:30		irc: server localhost created (temporary server, NOT SAVED!)
+2014-01-05 17:34:26		irc: server 6667 created (temporary server, NOT SAVED!)
+2014-01-05 17:35:13		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, script, xfer
+2014-01-05 17:35:19		irc: server localhost created (temporary server, NOT SAVED!)
+2014-01-05 17:35:27		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, script, xfer
+2014-01-05 17:36:01		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, script, xfer
+2014-01-05 17:37:34		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, script, xfer
+2014-01-05 17:37:41		irc: server localhost created (temporary server, NOT SAVED!)
+2014-01-05 17:38:25		irc: server &bitlbee created
+2014-01-05 17:39:39	=!=	Error: option "irc.server.bitlbee.command" not found
+2014-01-05 17:41:36		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2014-01-05 17:47:50		Option changed: irc.server.oftc.autoconnect = on  (default: (undefined))
+2014-01-05 17:48:56	=!=	Error: unknown option for "window" command
+2014-01-05 19:09:21		irc: server irc.unixhub.net created (temporary server, NOT SAVED!)
+2014-01-05 22:50:43	=!=	Error: cannot create file "/home/day/.weechat/plugins.conf.weechattmp"
+2014-01-05 22:50:43	=!=	Error writing configuration file "/home/day/.weechat/plugins.conf"
+2014-01-05 22:50:43	=!=	Error: cannot create file "/home/day/.weechat/rmodifier.conf.weechattmp"
+2014-01-05 22:50:43	=!=	Error writing configuration file "/home/day/.weechat/rmodifier.conf"
+2014-01-05 22:50:43	=!=	Error: cannot create file "/home/day/.weechat/aspell.conf.weechattmp"
+2014-01-05 22:50:43	=!=	Error writing configuration file "/home/day/.weechat/aspell.conf"
+2014-01-05 22:50:43	=!=	Error: cannot create file "/home/day/.weechat/logger.conf.weechattmp"
+2014-01-05 22:50:43	=!=	Error writing configuration file "/home/day/.weechat/logger.conf"
+2014-01-05 22:50:51		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, script, xfer

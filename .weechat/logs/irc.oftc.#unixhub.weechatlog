@@ -1,0 +1,66 @@
+2014-01-05 13:05:11	-->	day (day@UH-3764600A.range86-186.btcentralplus.com) has joined #unixhub
+2014-01-05 13:05:11	--	Topic for #unixhub is "http://howfuckedismydatabase.com/nosql/fault-tolerance.png | Statism at it's finest! http://www.youtube.com/watch?v=aby_LfFD92Y"
+2014-01-05 13:05:11	--	Topic set by NeoTerra on Fri, 03 Jan 2014 06:58:39
+2014-01-05 13:05:11	--	Nicks #unixhub: [%crshd|gone %shix +_pash +akacase[afk] +arduix +bosko +bottomy +dami0 +dcat +dimeshake +EmperorDAZ +eregus +eye +femto +functorfun +Galtath +HelenaKitty +isitmoist +Jolia +kirby +KittyKatt +koprii +LippyLee +marcusant +mrmackie +ne0phyte +nyx +OlaHughson +sam +SammiKat +tbuck +tida +trgc +tupper +venam +vypr +Ypnose +yrmt +z3bra day]
+2014-01-05 13:05:11	--	Channel #unixhub: 40 nicks (0 ops, 2 halfops, 37 voices, 1 normal)
+2014-01-05 13:05:11	--	Mode #unixhub [+v day] by ChanServ
+2014-01-05 13:05:14	--	Mode #unixhub [+ntr]
+2014-01-05 13:05:14	--	Channel created on Fri, 20 Dec 2013 20:55:41
+2014-01-05 13:09:43	+venam	yrmt: that's Neuromatic right?
+2014-01-05 13:12:52	+yrmt	yep
+2014-01-05 13:14:14	+day	I still haven't worked out how to change the splitting type in bspwm to manual, can anybody help?
+2014-01-05 13:17:27	+yrmt	nope
+2014-01-05 13:26:41	+_pash	yrmt: who's screenie is that? sexy
+2014-01-05 13:26:55	+_pash	yrmt: super sexy
+2014-01-05 13:27:00	<--	KittyKatt (katt@UH-7C6DEE33.dhcp.stls.mo.charter.com) has quit (Ping timeout: 183 seconds)
+2014-01-05 13:27:32	+_pash	yrmt: shit thats yours! 
+2014-01-05 13:28:18	+yrmt	no it's not
+2014-01-05 13:28:23	+yrmt	it could be though
+2014-01-05 13:30:10	+_pash	yrmt: whats dfc?
+2014-01-05 13:30:32	+yrmt	it's not my screenshot but I guess a df with colors
+2014-01-05 13:30:44	-->	KittyKatt (katt@UH-7C6DEE33.dhcp.stls.mo.charter.com) has joined #unixhub
+2014-01-05 13:30:44	--	Mode #unixhub [+v KittyKatt] by ChanServ
+2014-01-05 13:36:01	+Ypnose	_pash: http://projects.gw-computing.net/projects/dfc
+2014-01-05 13:36:16	+vypr	dcat: ping
+2014-01-05 13:36:53	+yrmt	All/DatLib-2.21.tgz
+2014-01-05 13:36:56	+yrmt	dat lib
+2014-01-05 13:37:41	<--	tida (tlw@UH-B8AC3EAB.superkabel.de) has quit (Ping timeout: 184 seconds)
+2014-01-05 13:37:43	+yrmt	Ypnose: fuck, they use cmake on such a small project
+2014-01-05 13:37:57	+Ypnose	yeah, I dislike cmake
+2014-01-05 13:38:13	+Ypnose	that's why I use irssi :)
+2014-01-05 13:38:21	+vypr	oh god
+2014-01-05 13:38:30	+vypr	you did not compare cmake to irssi
+2014-01-05 13:38:32	+vypr	._.
+2014-01-05 13:38:47	+Ypnose	? was talking about weecha vs irssi
+2014-01-05 13:38:50	+yrmt	ll
+2014-01-05 13:38:52	+yrmt	lel
+2014-01-05 13:38:54	+vypr	wat
+2014-01-05 13:38:54	+Ypnose	weechat*
+2014-01-05 13:38:57	+yrmt	weechat uses cmake
+2014-01-05 13:39:00	+vypr	oh
+2014-01-05 13:39:03	+vypr	i didn't know
+2014-01-05 13:39:04	+yrmt	irssi uses simple makefiles
+2014-01-05 13:39:14	+yrmt	‚_‚
+2014-01-05 13:39:15	+Ypnose	yrmt: ty bro
+2014-01-05 13:39:29	+yrmt	irssi vs. weechat on depends
+2014-01-05 13:39:42	+yrmt	they both depends on a fuck load of shit
+2014-01-05 13:40:07	+yrmt	irssi wins but it uses glib
+2014-01-05 13:40:21	+yrmt	also, yay dfc
+2014-01-05 13:41:31	+yrmt	dfc -nwm
+2014-01-05 13:41:47	+Ypnose	other than that, I like dfc but I do not use it anymore
+2014-01-05 13:42:39	+yrmt	simple df just werks
+2014-01-05 13:42:47	+Ypnose	right
+2014-01-05 13:42:49	+yrmt	I kinda stopped using fancy versions 
+2014-01-05 13:45:13	+yrmt	nformation for http://saveosx.org/packages/Darwin/2013Q2/x86_64/All/vmips-1.4.1.tgz:
+2014-01-05 13:45:15	+yrmt	Description:
+2014-01-05 13:45:18	+yrmt	vmips is a virtual machine simulator based around a MIPS R3000 RISC CPU
+2014-01-05 13:45:20	+yrmt	aw ye
+2014-01-05 13:45:34	-->	tida (tlw@UH-B8AC3EAB.superkabel.de) has joined #unixhub
+2014-01-05 13:45:35	--	Mode #unixhub [+v tida] by ChanServ
+2014-01-05 13:45:50	+bosko	risc is the future
+2014-01-05 13:45:55	+bosko	r.i.p x86
+2014-01-05 13:46:12	+yrmt	hehe
+2014-01-05 13:46:53	+bosko	its true though
+2014-01-05 13:47:06	<--	_pash (pash@F3850792.FDADFD0C.88C4EAC0.IP) has quit (Quit: leaving)
+2014-01-05 13:47:09	+yrmt	sure
+2014-01-05 13:47:18	+yrmt	we need less power consumption

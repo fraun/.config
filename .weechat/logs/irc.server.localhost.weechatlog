@@ -1,0 +1,67 @@
+2014-01-05 17:31:52	--	irc: connecting to server localhost/6667...
+2014-01-05 17:31:52	=!=	irc: connection refused
+2014-01-05 17:31:52	--	irc: reconnecting to server in 10 seconds
+2014-01-05 17:32:02	--	irc: reconnecting to server...
+2014-01-05 17:32:02	--	irc: connecting to server localhost/6667...
+2014-01-05 17:32:02	=!=	irc: connection refused
+2014-01-05 17:32:02	--	irc: reconnecting to server in 20 seconds
+2014-01-05 17:32:22	--	irc: reconnecting to server...
+2014-01-05 17:32:22	--	irc: connecting to server localhost/6667...
+2014-01-05 17:32:22	=!=	irc: connection refused
+2014-01-05 17:32:22	--	irc: reconnecting to server in 40 seconds
+2014-01-05 17:33:30	--	irc: connecting to server localhost/6667...
+2014-01-05 17:33:30	=!=	irc: connection refused
+2014-01-05 17:33:30	--	irc: reconnecting to server in 10 seconds
+2014-01-05 17:33:40	--	irc: reconnecting to server...
+2014-01-05 17:33:40	--	irc: connecting to server localhost/6667...
+2014-01-05 17:33:40	=!=	irc: connection refused
+2014-01-05 17:33:40	--	irc: reconnecting to server in 20 seconds
+2014-01-05 17:34:00	--	irc: reconnecting to server...
+2014-01-05 17:34:00	--	irc: connecting to server localhost/6667...
+2014-01-05 17:34:00	=!=	irc: connection refused
+2014-01-05 17:34:00	--	irc: reconnecting to server in 40 seconds
+2014-01-05 17:34:26	--	irc: connecting to server localhost/6667...
+2014-01-05 17:34:26	=!=	irc: connection refused
+2014-01-05 17:34:26	--	irc: reconnecting to server in 10 seconds
+2014-01-05 17:34:36	--	irc: reconnecting to server...
+2014-01-05 17:34:36	--	irc: connecting to server localhost/6667...
+2014-01-05 17:34:36	=!=	irc: connection refused
+2014-01-05 17:34:36	--	irc: reconnecting to server in 20 seconds
+2014-01-05 17:34:56	--	irc: reconnecting to server...
+2014-01-05 17:34:56	--	irc: connecting to server localhost/6667...
+2014-01-05 17:34:56	=!=	irc: connection refused
+2014-01-05 17:34:56	--	irc: reconnecting to server in 40 seconds
+2014-01-05 17:35:03	--	irc: connecting to server localhost/6667...
+2014-01-05 17:35:03	=!=	irc: connection refused
+2014-01-05 17:35:03	--	irc: reconnecting to server in 10 seconds
+2014-01-05 17:35:19	--	irc: connecting to server localhost/6667...
+2014-01-05 17:35:19	=!=	irc: connection refused
+2014-01-05 17:35:19	--	irc: reconnecting to server in 10 seconds
+2014-01-05 17:37:41	--	irc: connecting to server localhost/6667...
+2014-01-05 17:37:41	--	irc: connected to localhost/6667 (::1)
+2014-01-05 17:37:41	--	localhost.localdomain (localhost.localdomain): BitlBee-IRCd initialized, please go on
+2014-01-05 17:37:41	--	Welcome to the BitlBee gateway, day
+2014-01-05 17:37:41	--	Host localhost.localdomain is running BitlBee 3.2.1 Linux/x86_64.
+2014-01-05 17:37:41	--	BitlBee <http://www.bitlbee.org/>
+2014-01-05 17:37:41	--	localhost.localdomain 3.2.1 abiswRo ntC
+2014-01-05 17:37:41	--	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2014-01-05 17:37:41	--	- localhost.localdomain Message Of The Day -
+2014-01-05 17:37:41	--	- Welcome to the BitlBee server at localhost.localdomain.
+2014-01-05 17:37:41	--	-
+2014-01-05 17:37:41	--	- This server is running BitlBee version 3.2.1.
+2014-01-05 17:37:41	--	- The newest version can be found on http://www.bitlbee.org/
+2014-01-05 17:37:41	--	-
+2014-01-05 17:37:41	--	- You are getting this message because the server administrator has not
+2014-01-05 17:37:41	--	- yet had the time (or need) to change it.
+2014-01-05 17:37:41	--	-
+2014-01-05 17:37:41	--	- For those who don't know it yet, this is not quite a regular Internet
+2014-01-05 17:37:41	--	- Relay Chat server. Please see the site mentioned above for more
+2014-01-05 17:37:41	--	- information.
+2014-01-05 17:37:41	--	-
+2014-01-05 17:37:41	--	- The developers of the Bee hope you have a buzzing time.
+2014-01-05 17:37:41	--	- -- BitlBee development team.
+2014-01-05 17:37:41	--	-
+2014-01-05 17:37:41	--	- ... Buzzing, haha, get it?
+2014-01-05 17:37:41	--	End of MOTD
+2014-01-05 17:37:41	--	User mode [+s] by day
+2014-01-05 17:41:00	=!=	irc: "names" command can only be executed in a channel buffer
