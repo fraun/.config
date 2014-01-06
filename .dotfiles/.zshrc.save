@@ -1,13 +1,11 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
+
+PATH=$PATH:"
 export PATH=$PATH:/home/day/.panelfiles
 
 xrdb -load ~/.Xresources
-
-PATH=$PATH:"/home/day/todo.txt/"
-export TODOTXT_DEFAULT_ACTION=ls
-alias t='bash ~/Dropbox/todo/todo.sh -d ~/.Dropbox/todo/todo.cfg'
 
 
 ##gcal alias
