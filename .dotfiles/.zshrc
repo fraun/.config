@@ -5,6 +5,13 @@ export PATH=$PATH:/home/day/.panelfiles
 
 xrdb -load ~/.Xresources
 
+
+##gcal alias
+alias ga='gcalcli agenda'
+alias gq='gcalcli quick'
+alias gw='gcalcli calw'
+
+
 ## Modified commands ## {{{
 alias diff='colordiff'              # requires colordiff package
 alias grep='grep --color=auto'
