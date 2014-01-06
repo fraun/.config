@@ -201,3 +201,19 @@ function extract()      # Handy Extract Program
         echo "'$1' is not a valid file!"
     fi
 }
+
+
+export PINK='\\033[38;5;211m'
+export ORANGE='\\033[38;5;203m'
+export SKYBLUE='\\033[38;5;111m'
+export MEDIUMGREY='\\033[38;5;246m'
+export LAVENDER='\\033[38;5;183m'
+export TAN='\\033[38;5;179m'
+export FOREST='\\033[38;5;22m'
+export MAROON='\\033[38;5;52m'
+export HOTPINK='\\033[38;5;198m'
+export MINTGREEN='\\033[38;5;121m'
+export LIGHTORANGE='\\033[38;5;215m'
+export LIGHTRED='\\033[38;5;203m'
+export JADE='\\033[38;5;35m'
+export LIME='\\033[38;5;154m'

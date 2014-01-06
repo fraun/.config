@@ -57,8 +57,10 @@
 *color10:               S_base01
 
 !! yellow dark/light
-*color3:                S_yellow
-*color11:               S_base00
+!!*color3:                S_yellow
+*color3:                S_green
+!!*color11:               S_base00
+*color11:               S_yellow
 
 !! blue dark/light
 *color4:                S_blue
