@@ -119,7 +119,7 @@ hc set window_border_active_color '#657b83'
 hc set always_show_frame 1
 hc set frame_bg_transparent 1
 hc set frame_transparent_width 5
-hc set frame_gap 15
+hc set frame_gap 10
 hc set focus_follows_mouse 1
 
 # add overlapping window borders
