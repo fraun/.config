@@ -2,7 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 
 export PATH=$PATH:/home/day/.panelfiles
-
+PATH=$PATH:"~/scripts/"
 xrdb -load ~/.Xresources
 
 PATH=$PATH:"/home/day/todo.txt/"
@@ -115,7 +115,7 @@ alias pacro="/usr/bin/pacman -Qtdq > /dev/null && sudo /usr/bin/pacman -Rns \$(/
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="crunch"
+ZSH_THEME="gnzh"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -217,3 +217,4 @@ export LIGHTORANGE='\\033[38;5;215m'
 export LIGHTRED='\\033[38;5;203m'
 export JADE='\\033[38;5;35m'
 export LIME='\\033[38;5;154m'
+alias en='emacs -nw'
