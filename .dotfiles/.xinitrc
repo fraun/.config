@@ -35,6 +35,7 @@ compton -cb -o0 --vsync opengl
 
 btsync
 
+#urxvt
 
 #keyboard 
 setxkbmap -layout gb
@@ -58,11 +59,22 @@ setxkbmap -layout gb
 
 # start herbstluftwm in locked mode (it will be unlocked at the end of your
 # autostart)
-#exec herbstluftwm --locked
+exec herbstluftwm --locked
 #terminator
 
 # ...or the Window Manager of your choice
 
 
 
-exec i3
+#exec i3
+
+
+
+
+
+
+
+
+
+
+
