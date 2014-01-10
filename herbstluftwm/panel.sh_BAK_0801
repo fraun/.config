@@ -110,8 +110,7 @@ hc pad $monitor $panel_height
                 echo -n "focus_monitor \"$monitor\" && "
                 echo -n "\"${herbstclient_command[@]:-herbstclient}\" "
                 echo -n "use \"${i:1}\") ${i:1} ^ca()"
-		
-	    else
+            else
                 # non-clickable tags if using older dzen
                 echo -n " ${i:1} "
             fi
