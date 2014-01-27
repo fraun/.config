@@ -1,0 +1,51 @@
+! =============== X.org default configurations =================
+! file:     ~/.Xresources
+! author:  Willy Goiffon
+! vim: set fenc=utf-8:nu:ai:si:et:ts=4:sw=4:ft=xdefaults:
+! ==============================================================
+
+! Terminal colors (dark) ---------------------------------------
+URxvt*background:[90]#221a17
+URxvt*foreground:#b3b4b1
+
+*color0:    #222222
+*color1:    #784742
+*color2:    #427363
+*color3:    #665847
+*color4:    #6a708b
+*color5:    #7a378b
+*color6:    #52707b
+*color7:    #b3b4b1
+
+*color8:    #5c4c4c
+*color9:    #d43f10
+*color10:   #cef318
+*color11:   #ede265
+*color12:   #6ac0fd
+*color13:   #ef79ae
+*color14:   #49d4dd
+*color15:   #ffffff
+
+! URxvt (rxvt-unicode) -----------------------------------------
+
+URxvt*termName:             rxvt-256color
+URxvt*loginShell:           false
+URxvt*saveLines:            1024
+URxvt*geometry:             81x20
+URxvt*depth:                32
+URxvt*font:                 -misc-tamsyn-medium-*-*--14-101-*-*-*-*-*,-*-stlarch-medium-r-*--10-*-*-*-*-*
+URxvt*boldFont:             -misc-tamsyn-medium-*-*--14-101-*-*-*-*-*,-*-stlarch-medium-r-*--10-*-*-*-*-*
+URxvt*scrollBar:            false
+URxvt*cursorBlink:          false
+URxvt*cursorColor:          #5c4c4c
+URxvt*internalBorder:       2
+URxvt*perl-ext-common:      default,url-select,keyboard-select
+URxvt.url-select.launcher:  /usr/bin/dwb
+URxvt.url-select.underline: true
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.keysym.M-v:           perl:keyboard-select:activate
+
+! Colored man pages
+URxvt.colorIT:              #cacaca
+URxvt.colorBD:              #eee685
+URxvt.colorUL:              #a28c64

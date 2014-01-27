@@ -5,7 +5,7 @@ export PATH=$PATH:/home/day/.panelfiles
 PATH=$PATH:"~/scripts/"
 xrdb -load ~/.Xresources
 
-PATH=$PATH:"/home/day/todo.txt/"
+PATH=$PATH:"/home/fraun/todo.txt/"
 export TODOTXT_DEFAULT_ACTION=ls
 alias t='bash ~/Dropbox/todo/todo.sh -d ~/.Dropbox/todo/todo.cfg'
 
@@ -27,9 +27,15 @@ alias nano='nano -w'
 alias ping='ping -c 5'
 alias dmesg='dmesg -HL'
 # }}}
+#--------------------------
+#Personal Aliases
+#--------------------------
 
-
-alias fth='cd /home/day/grive/4th_Year'
+alias sen='sudo emacs -nw'
+alias em='emacs'
+alias fth='cd /home/fraun/grive/4th_Year'
+alias ev='evince'
+alias en='emacs -nw'
 
 ## New commands ## {{{
 alias da='date "+%A, %B %d, %Y [%T]"'
@@ -127,8 +133,8 @@ ZSH_THEME="gnzh"
 # Uncomment this to disable bi-weekly auto-update checks
 # DISABLE_AUTO_UPDATE="true"
 
-# Uncomment to change how often before auto-updates occur? (in days)
-# export UPDATE_ZSH_DAYS=13
+# Uncomment to change how often before auto-updates occur? (in frauns)
+# export UPDATE_ZSH_FRAUNS=13
 
 # Uncomment following line if you want to disable colors in ls
 # DISABLE_LS_COLORS="true"

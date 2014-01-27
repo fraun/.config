@@ -15,8 +15,12 @@ fi
 xset +fp /usr/share/fonts/local
 xset fp rehash
 
+mpd
+
+feh --bg-fill ~/wall/stag.jpg
 #bar scripts
 
+xbindkeys&
 
 #cursor
 # default cursor
@@ -33,7 +37,7 @@ compton -cb -o0 --vsync opengl
 
 #btsync
 
-btsync
+#btsync
 
 #urxvt
 
