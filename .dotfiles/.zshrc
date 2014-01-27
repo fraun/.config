@@ -10,6 +10,8 @@ export TODOTXT_DEFAULT_ACTION=ls
 alias t='bash ~/Dropbox/todo/todo.sh -d ~/.Dropbox/todo/todo.cfg'
 
 
+alias ncmpcpp='ncmpcpp -c /home/fraun/.config/.ncmpcpp/config'
+
 ##gcal alias
 alias gcala='gcalcli agenda'
 alias gcalq='gcalcli quick'
