@@ -19,7 +19,7 @@ set folder = "imaps://imap.gmail.com:993"
 set spoolfile = "+INBOX"
 set imap_check_subscribed
 set hostname = gmail.com
-set mail_check = 120
+set mail_check = 100
 set timeout = 300
 set imap_keepalive = 300
 set postponed = "+[GMail]/Drafts"

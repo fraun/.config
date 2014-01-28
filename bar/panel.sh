@@ -142,7 +142,6 @@ herbstclient pad $monitor 18
             tag*)
                 TAGS=( $(herbstclient tag_status $monitor) )
                 unset TAGS[${#TAGS[@]}-1]
- #               count=$(get_mail)
 		;;
             date)
                 date="${cmd[@]:1}"
