@@ -49,7 +49,10 @@ volume=$(amixer get Master -M | grep -oE "[[:digit:]]*%")
 separator="\f0  |  \fr"
 song=$(get_mpd_song)
 mcptime=$(mpc | grep ^'\[p.*]' | tr ' ' '\012 ' | grep :)
-gcount=$(get_mail)
+#gcount=$(get_mail)
+
+
+
 herbstclient pad $monitor 18
 {
     # events:
@@ -72,17 +75,15 @@ herbstclient pad $monitor 18
 	 
 	mcptime=$(mpc | grep ^'\[p.*]' | tr ' ' '\012 ' | grep :)
 	volume=$(amixer get Master -M | grep -oE "[[:digit:]]*%")
-	#echo $volume
-	if [$num -eq 100]; then
-	    gcount=$(get_mail)
-	    $num=0
-	fi
-	num=$(expr $num + 1)
-        echo $date
-	#volume='amixer get Master -M | grep -oE "[[:digit:]]*%"'
-	#get_mpd_song
-        sleep 1 || break
-    done > >(uniq_linebuffered) &
+	
+#	if [ $num -eq 100 ]; then
+#	    gcount=$(get_mail)
+#	    num=0
+#	fi
+#	num=$(expr $num + 1)
+	echo $date
+	sleep 1 || break
+    done  > >(uniq_linebuffered) &
     date_pid=$!
 
     # hlwm events
@@ -128,6 +129,7 @@ herbstclient pad $monitor 18
         echo -n "\r\ur\fr\br"
 	#echo -n "$mpctime"
 	echo -n "$separator"
+	#echo -n "$num"
 	echo -n "Ê $gcount"
 	echo -n "$separator"
 	echo -n "í $volume"
@@ -140,14 +142,18 @@ herbstclient pad $monitor 18
         # find out event origin
         case "${cmd[0]}" in
             tag*)
-                TAGS=( $(herbstclient tag_status $monitor) )
+                TAGS=($(herbstclient tag_status $monitor))
                 unset TAGS[${#TAGS[@]}-1]
 		;;
             date)
                 date="${cmd[@]:1}"
 		#mcptime=$(mpc | grep ^'\[p.*]' | tr ' ' '\012 ' | grep :)
 		volume=$(amixer get Master -M | grep -oE "[[:digit:]]*%")
-		gcount=$(get_mail)
+		if [ $num -eq 60 ]; then
+		    gcount=$(get_mail)
+		    num=0
+		fi
+		num=$(expr $num + 1)
 		;;
             player)
                 song=$(get_mpd_song)
