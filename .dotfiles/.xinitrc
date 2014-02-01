@@ -33,7 +33,7 @@ sh ~/.wall.sh &
 xrdb -load ~/.Xresources
 
 #compton
-compton -cb -o0 --vsync opengl
+compton -cb --vsync opengl
 
 #btsync
 
