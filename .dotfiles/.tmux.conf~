@@ -1,0 +1,30 @@
+# History
+set-option -g history-limit 1000
+ 
+# Terminal emulator window title
+set-option -g set-titles on
+# set-option -g set-titles-string '#S:#I.#P #W'
+set-option -g set-titles-string '#W'
+# set terminal
+set-option -g default-terminal screen-256color
+ 
+# Status bar
+#set-option -g status-position top
+set-option -g status-justify centre
+set-option -g status-bg black
+set-option -g status-fg white
+set-option -g status-interval 5
+ 
+setw -g window-status-format "#[bg=cyan,fg=black] #I #[bg=blue,fg=black] #W "
+setw -g window-status-current-format "#[bg=cyan,fg=brightwhite] #I #[bg=blue,fg=black] #W "
+set -g status-justify left
+set-option -g status-right '#[bg=yellow,fg=black] #H #[default] #[bg=red,fg=black] %H:%M #[default]'
+set-option -g status-left ''
+ 
+# Notifying if other windows has activities
+# set-option -g visual-activity on
+# set-window-option -g monitor-activity on
+#
+# # Clock
+set-window-option -g clock-mode-colour blue
+set-window-option -g clock-mode-style 24
