@@ -1,6 +1,7 @@
+
 # A basic .muttrc for use with Gmail
 
-source ~/.config/mutt/mutt-colors-solarized-dark-16.muttrc
+source ~/.config/mutt/mutt-colors-solarized-light-16.muttrc
 source ~/pw.safe.mutt
 
 # Change the following six lines to match your Gmail account details
@@ -20,10 +21,10 @@ set spoolfile = "+INBOX"
 set imap_check_subscribed
 set hostname = gmail.com
 set mail_check = 100
-set timeout = 300
-set imap_keepalive = 300
+set timeout = 30
+set imap_keepalive = 3000
 set postponed = "+[GMail]/Drafts"
-set record = "+[GMail]/Sent Mail"
+#set record = "+[GMail]/Sent Mail"
 set header_cache=~/.mutt/cache/headers
 set message_cachedir=~/.mutt/cache/bodies
 set certificate_file=~/.mutt/certificates
@@ -32,6 +33,10 @@ set include
 set sort = 'threads'
 set sort_aux = 'reverse-last-date-received'
 set auto_tag = yes
+
+set query_command="goobook query '%s'"
+
+
 ignore "Authentication-Results:"
 ignore "DomainKey-Signature:"
 ignore "DKIM-Signature:"

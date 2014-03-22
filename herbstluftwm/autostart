@@ -67,8 +67,8 @@ hc keybind $Mod-Control-Up      resize up +$resizestep
 hc keybind $Mod-Control-Right   resize right +$resizestep
 
 # tags
-tag_names=( {1..9} 0 )
-tag_keys=( {1..9} 0 )
+tag_names=( {1..10} 0 )
+tag_keys=( {1..10} 0 )
 
 hc rename default "${tag_names[0]}" || true
 for i in ${!tag_names[@]} ; do
@@ -107,14 +107,14 @@ hc keybind $Mod-i jumpto urgent
 
 # colors
 hc set frame_border_active_color '#657b83'
-hc set frame_border_normal_color '#002b36'
+hc set frame_border_normal_color '#000000'
 hc set frame_bg_normal_color '#002b36'
-hc set frame_bg_active_color '#002b36'
-hc set frame_border_width 0
-hc set window_border_width 0
+hc set frame_bg_active_color '#fdf6e3'
+hc set frame_border_width 0 
+hc set window_border_width 5 
 hc set window_border_inner_width 0
-hc set window_border_normal_color '#444444'
-hc set window_border_active_color '#657b83'
+hc set window_border_normal_color '#fdf6e3'
+hc set window_border_active_color '#cb4b16'
 hc set always_show_frame 1
 hc set frame_bg_transparent 1
 hc set frame_transparent_width 0

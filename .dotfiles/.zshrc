@@ -1,9 +1,13 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
-
-export PATH=$PATH:/home/day/.panelfiles
+export PANEL_FIFO="/tmp/panel-fifo"
+export PATH=$PATH:~/.config/panel
+#export PATH=$PATH:/home/day/.panelfiles
 PATH=$PATH:"~/scripts/"
 xrdb -load ~/.Xresources
+
+_JAVA_AWT_WM_NONREPARENTING=1; export _JAVA_AWT_WM_NONREPARENTING
+
 
 PATH=$PATH:"/home/fraun/todo.txt/"
 export TODOTXT_DEFAULT_ACTION=ls

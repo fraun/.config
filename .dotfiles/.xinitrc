@@ -17,7 +17,7 @@ xset fp rehash
 
 mpd
 
-feh --bg-fill ~/wall/stag.jpg
+feh --bg-fill ~/wall/blob.jpg
 #bar scripts
 
 xbindkeys&
@@ -56,7 +56,11 @@ setxkbmap -layout gb
 # setxkbmap -layout gb 
 # start xmonad 
 # exec xmonad 
+
 #sxhkd &
+#urxvt &
+#exec bspwm
+
 #[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
 #mkfifo "$PANEL_FIFO"
 #exec bspwm -s "$PANEL_FIFO" -p W

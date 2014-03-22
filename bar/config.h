@@ -23,17 +23,17 @@
 #define BAR_FONT_FALLBACK_WIDTH 12
 
 /* Define the opacity of the bar (requires a compositor such as compton) */
-#define BAR_OPACITY 0.75 /* 0 is invisible, 1 is opaque */
+#define BAR_OPACITY 1 /* 0 is invisible, 1 is opaque */
 /* Color palette */
-#define BACKGROUND 0x002b36
-#define FOREGROUND 0x657b83
-#define COLOR0 0x073642
-#define COLOR1 0xdc322f
-#define COLOR2 0x859900
-#define COLOR3 0xb58900
-#define COLOR4 0x268bd2
-#define COLOR5 0xffffff
-#define COLOR6 0xffffff
-#define COLOR7 0xffffff
-#define COLOR8 0xffffff
-#define COLOR9 0xcb4b16
+#define BACKGROUND 0xfdf6e3
+#define FOREGROUND 0x839496
+#define COLOR0 0x222222
+#define COLOR1 0xE84F4F
+#define COLOR2 0xB7CE42
+#define COLOR3 0xC4E969
+#define COLOR4 0x66AABB
+#define COLOR5 0xB7416E
+#define COLOR6 0x6D878D
+#define COLOR7 0xF2F1F0
+#define COLOR8 0x666666
+#define COLOR9 0xD23D3D
